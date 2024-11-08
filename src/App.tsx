@@ -19,7 +19,13 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>Blockchain PoC</h1>
+      <label>Enter CO2 Emission Value:
+        <input type="text" />
+      </label>
+      <label>Enter Company Name:
+        <input type="text" />
+      </label>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
